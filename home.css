@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Freehand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;  
+}
+body{
+  min-height: 100vh;
+  color: black;
+  background-image: url(nav/backimage\ 2.jpeg);
+  background-size: cover ;
+  background-position: calc(-210px);
+  background-repeat: no-repeat;
+  
+}
+
+nav{
+  background-color: rgba(0, 0, 0, 0.795);
+  backdrop-filter: blur(5px);
+  box-shadow: 3px 3px 5px rgb(116, 116, 116);
+  height: 68px;
+}
+nav ul{
+  width: 100%;
+  margin-top: -50px;
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.svg{
+  fill: white;
+  left: -10px;
+  position: relative;
+}
+
+.menu{
+  fill: white;
+
+}
+nav li{
+  height: 50px;
+}
+nav a{
+  height: 30%;
+  color: white;
+  padding: 0 30px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  
+}
+.motto{
+  font-style: italic;
+  font-size: 12px;
+  width: fit-content;
+  line-height: 1.5; 
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto; 
+  font-weight: 800;
+  letter-spacing: 1px;
+  font-style: normal;
+  padding: 2px;
+  position: relative;
+  top: -10px;
+  color: yellow;
+}
+
+.sidebar{
+  position: fixed;
+  top: 0%;
+  margin-top: 0px;
+  height: 100vh;
+  width: 250px;
+  z-index: 999;
+  right: 0;
+  top: 0px;
+  background-color: rgb(0, 0, 0);
+  backdrop-filter: blur(0px);
+  box-shadow: -10px 0 10px none;
+  display: none;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.sidebar li{
+width: 100%;
+}
+.sidebar a{
+width: 100%;
+margin-top: 20px;
+}
+.side-txt{
+  box-shadow:0px 3px 0px rgb(255, 255, 255);
+}
+.menu-btn{
+  display: flex;
+}
+  .hideOnMobile{
+    display: none;
+    
+}
+.main-logo img{
+    width: 40px;
+    padding: 3px;
+}
+
+
+.top-head{
+  padding-right: 20px;
+  float: right;
+  text-align: right;
+  margin: 0%;
+  width: 50%;
+  color: white;
+}
+.welcome{
+  font-size: x-large;
+  text-shadow: 2px 2px 5px black;
+}
+.we{
+  line-height: normal;
+  margin-top: 20px;
+  color: rgb(255, 227, 172);
+  font-weight: 900;
+  font-size: 103%;
+  text-shadow: 2px 1px 3px black;
+}
+
+.yours{
+    font-size: 65%;
+   }
+   .free{
+   font-weight: 900;
+   font-style: italic;
+   text-decoration: underline;
+  }
+  .img-icon{
+    width: 10%;
+    position: relative;
+    left: -10px;
+    fill: white;
+    
+  }
+   footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 105%;
+    font-size: 90%;
+    color: black;
+    font-style: italic;
+    text-align: center;
+   }
+
+
+
+   @media only screen and (min-width:900px){
+    body{
+      min-height: 100vh;
+      color: black;
+      background-image: url(nav/backimage\ 2.jpeg);
+      background-position: calc(-150px);
+      background-size: cover;
+      background-repeat: no-repeat;
+      overflow: hidden;
+   }
+   .sidebar{
+    width: 25%;
+   }
+   }
+   @media only screen and (min-width:700px){
+    body{
+      min-height: 100vh;
+      color: black;
+      background-image: url(nav/backimage\ 2.jpeg);
+      background-position: calc(0px);
+      background-size: cover;
+      background-repeat: no-repeat;
+      overflow: hidden;
+   }
+   .sidebar{
+    width: 30%;
+   }
+   }
+   @media only screen and (min-width:1090px){
+    .hideOnMobile{
+        display: block;
+    }
+
+    .menu-btn{
+        display: none;
+
+    }
+    .home{
+      text-decoration: underline;
+    }
+    .main-logo img{
+      padding: 1px 2px;
+  }
+  .motto{
+    font-size: small;
+  }
+    .img{
+        position: relative;
+        margin: 1%;
+        height: 150px;
+      
+    }
+    body{
+      min-height: 100vh;
+      color: black;
+      background-image: url(nav/backimage\ 2.jpeg);
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      overflow: hidden;
+   }
+    .top-head{
+      text-align: center;
+    }
+    .feel{
+      width: 70%;
+      justify-content: flex-start;
+      text-align: left justify;
+    }
+
+     .head{
+      bottom: -2%;
+      position: relative;
+  }
+}
+

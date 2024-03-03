@@ -12,6 +12,8 @@ body{
   background-size: cover ;
   background-position: calc(-210px);
   background-repeat: no-repeat;
+    overflow: hidden;
+    
   
 }
 

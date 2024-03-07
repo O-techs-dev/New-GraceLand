@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Freehand&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Freehand&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
 
 *{
@@ -6,7 +6,7 @@
     margin: 0px;  
 }
 body{
-
+  font-size: small;
   min-height: 100vh;
   color: black;
   background-image: url(nav/backimage\ 2.jpeg);
@@ -21,7 +21,7 @@ nav{
   backdrop-filter: blur(5px);
   width: cover;
   box-shadow: 3px 3px 5px rgb(116, 116, 116);
-  height: 73px;
+  height: 60px;
 }
 nav ul{
   width: 100%;
@@ -45,7 +45,8 @@ nav li{
   height: 50px;
 }
 nav a{
-  height: 30%;
+  height: 2%;
+  position: relative;
   color: white;
   padding: 0 30px;
   text-decoration: none;
@@ -56,7 +57,7 @@ nav a{
 .motto{
   font-style: italic;
   font-size: 8px;
-  width: 50%;
+  width: 30%;
   line-height: 1.5; 
   font-family: "Dancing Script", cursive;
   font-optical-sizing: auto; 
@@ -65,7 +66,8 @@ nav a{
   font-style: normal;
   padding: 2px;
   position: relative;
-  top: -10px;
+  top: -55px;
+  left: 45px;
   color: yellow;
 }
 
@@ -98,6 +100,8 @@ margin-top: 20px;
 }
 .menu-btn{
   display: flex;
+  margin-top: -40px;
+  position: relative;
 }
   .hideOnMobile{
     display: none;
@@ -157,14 +161,40 @@ margin-top: 20px;
    }
 
 
+   @media (min-width:400px) {
+    .menu-btn{
+      display: flex;
+      margin-top: -30px;
+      position: relative;
+    }
+   }
+   @media  (min-width: 475px) {
+    
+    
+  
+   }
 
-
-   @media only screen and (min-width:768px){
+   @media (min-width:600px) {
+    body{
+      font-size: large;
+    }
+    .menu-btn{
+      display: flex;
+      margin-top: -20px;
+      position: relative;
+    }
+    .motto{
+      position: relative;
+      top: -45px;
+    }
+  
+   }
+   @media (min-width:768px){
     body{
       min-height: 100vh;
       color: black;
       background-image: url(nav/backimage\ 2.jpeg);
-      background-position: calc(0px);
+      background-position: calc(-130px);
       background-size: cover;
       background-repeat: no-repeat;
       overflow: hidden;
@@ -175,6 +205,11 @@ margin-top: 20px;
 nav a{
   padding: 0px 15px;
 }
+nav li{
+  position: relative;
+  top: -10px;
+
+}
 .home{
   text-decoration: underline;
 }
@@ -183,8 +218,22 @@ nav a{
     display: none;
 
 }
+.welcome{
+  font-size: 30px;
+}
+@media (min-width:900px) {
+  body{
+    min-height: 100vh;
+    color: black;
+    background-image: url(nav/backimage\ 2.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+  }
+}
    }
-   @media only screen and (min-width:1000px){
+   @media (min-width:1000px){
     .hideOnMobile{
         display: block;
     }
@@ -228,6 +277,13 @@ nav a{
      .head{
       bottom: -2%;
       position: relative;
+  }
+
+}
+@media (min-width:1171px) {
+  .motto{
+    position: relative;
+    top: -40px;
   }
 }
 

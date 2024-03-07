@@ -1,4 +1,4 @@
- @import url('https://fonts.googleapis.com/css2?family=Freehand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Freehand&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
 
 *{
@@ -177,6 +177,14 @@ margin-top: 20px;
    @media (min-width:600px) {
     body{
       font-size: large;
+        min-height: 100vh;
+        color: black;
+        background-image: url(nav/backimage\ 2.jpeg);
+        background-position: calc(-100px);
+        background-size: cover;
+        background-repeat: no-repeat;
+        overflow: hidden;
+     
     }
     .menu-btn{
       display: flex;
@@ -221,6 +229,19 @@ nav li{
 .welcome{
   font-size: 30px;
 }
+
+@media (min-width:790px) {
+  body{
+    font-size: large;
+      min-height: 100vh;
+      color: black;
+      background-image: url(nav/backimage\ 2.jpeg);
+      background-position: calc(-20px);
+      background-size: cover;
+      background-repeat: no-repeat;
+      overflow: hidden;
+   
+  }
 @media (min-width:900px) {
   body{
     min-height: 100vh;
@@ -266,7 +287,7 @@ nav li{
       overflow: hidden;
    }
     .top-head{
-      text-align: center;
+      text-align: right;
     }
     .feel{
       width: 70%;

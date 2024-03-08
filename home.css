@@ -1,4 +1,4 @@
- @import url('https://fonts.googleapis.com/css2?family=Freehand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Freehand&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
 
 *{
@@ -121,7 +121,7 @@ margin-top: 20px;
   color: white;
 }
 .welcome{
-  font-size: 125%;
+  font-size: 90%;
   text-shadow: 2px 2px 5px black;
 }
 .we{
@@ -154,12 +154,36 @@ margin-top: 20px;
     left: 0;
     text-shadow: 2px 3px 3px black;
     width: 105%;
-    font-size: 90%;
+    font-size: 80%;
     color: rgb(255, 255, 255);
     font-style: italic;
     text-align: center;
    }
 
+
+   @media (min-width:350px) {
+    body{
+      min-height: 100vh;
+      color: black;
+      background-image: url(nav/beauty-black-mixed-race-african-american-woman-with-long-curly-hair-perfect-smile-looking-camera-smiling-blue.jpg) ;
+      background-size: cover ;
+      background-position: calc(-270px);
+      background-repeat: no-repeat;
+      overflow: hidden;
+    }
+    .menu-btn{
+      display: flex;
+      margin-top: -35px;
+      position: relative;
+    }
+    .motto{
+      top: -53px;
+    }
+    .welcome{
+      font-size: 120%;
+      position: relative;
+    }
+   }
 
    @media (min-width:400px) {
     body{
@@ -178,6 +202,9 @@ margin-top: 20px;
     }
     .motto{
       top: -53px;
+    }
+    footer{
+      font-size: 90%;
     }
    }
    @media  (min-width: 475px) {
@@ -198,6 +225,9 @@ margin-top: 20px;
       display: flex;
       margin-top: -34px;
       position: relative;
+    }
+    footer{
+      font-size: 90%;
     }
    }
 
@@ -227,6 +257,9 @@ margin-top: 20px;
     .we{
       font-size: 17px;
     }
+    footer{
+      font-size: 90%;
+    }
    }
    @media (min-width:730px) {
     body{
@@ -253,6 +286,9 @@ margin-top: 20px;
     }
     .we{
       font-size: 17px;
+    }
+    footer{
+      font-size: 90%;
     }
    }
    @media (min-width:768px){
@@ -287,6 +323,9 @@ nav li{
 .welcome{
   font-size: 30px;
 }
+footer{
+  font-size: 90%;
+}
    }
 
 @media (min-width:790px) {
@@ -300,6 +339,9 @@ nav li{
       overflow: hidden;
    
   }
+  footer{
+    font-size: 90%;
+  }
 }
 @media (min-width:900px) {
   body{
@@ -310,6 +352,9 @@ nav li{
     background-size: cover;
     background-repeat: no-repeat;
     overflow: hidden;
+  }
+  footer{
+    font-size: 90%;
   }
 }
    
@@ -367,12 +412,18 @@ nav li{
       bottom: -2%;
       position: relative;
   }
+  footer{
+    font-size: 90%;
+  }
 
 }
 @media (min-width:1171px) {
   .motto{
     position: relative;
     top: -40px;
+  }
+  footer{
+    font-size: 90%;
   }
 }
 

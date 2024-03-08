@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Freehand&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Freehand&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
 
 *{
@@ -114,7 +114,7 @@ margin-top: 20px;
 .top-head{
   padding-right: 10px;
   float: right;
-  font-size: small;
+  font-size: 80%;
   text-align: right;
   margin: 0%;
   width: 50%;
@@ -126,7 +126,7 @@ margin-top: 20px;
 }
 .we{
   line-height: normal;
-  margin-top: 20px;
+  margin-top: 10px;
   color: rgb(255, 255, 255);
   font-weight: 900;
   font-size: 85%;

@@ -10,7 +10,7 @@ body{
   color: black;
   background-image: url(nav/beauty-black-mixed-race-african-american-woman-with-long-curly-hair-perfect-smile-looking-camera-smiling-blue.jpg) ;
   background-size: cover ;
-  background-position: calc(-210px);
+  background-position: calc(-270px);
   background-repeat: no-repeat;
   overflow: hidden;
 }
@@ -66,7 +66,7 @@ nav a{
   font-style: normal;
   padding: 2px;
   position: relative;
-  top: -59px;
+  top: -55px;
   left: 45px;
   color: yellow;
 }
@@ -100,7 +100,7 @@ margin-top: 20px;
 }
 .menu-btn{
   display: flex;
-  margin-top: -45px;
+  margin-top: -40px;
   position: relative;
 }
   .hideOnMobile{
@@ -155,13 +155,22 @@ margin-top: 20px;
     text-shadow: 2px 3px 3px black;
     width: 105%;
     font-size: 90%;
-    color: black;
+    color: rgb(255, 255, 255);
     font-style: italic;
     text-align: center;
    }
 
 
    @media (min-width:400px) {
+    body{
+      min-height: 100vh;
+      color: black;
+      background-image: url(nav/beauty-black-mixed-race-african-american-woman-with-long-curly-hair-perfect-smile-looking-camera-smiling-blue.jpg) ;
+      background-size: cover ;
+      background-position: calc(-270px);
+      background-repeat: no-repeat;
+      overflow: hidden;
+    }
     .menu-btn{
       display: flex;
       margin-top: -35px;
@@ -172,11 +181,24 @@ margin-top: 20px;
     }
    }
    @media  (min-width: 475px) {
+    body{
+      min-height: 100vh;
+      color: black;
+      background-image: url(nav/beauty-black-mixed-race-african-american-woman-with-long-curly-hair-perfect-smile-looking-camera-smiling-blue.jpg) ;
+      background-size: cover ;
+      background-position: calc(-270px);
+      background-repeat: no-repeat;
+      overflow: hidden;
+    }
     .welcome{
       font-size: large;
     }
 
-  
+    .menu-btn{
+      display: flex;
+      margin-top: -34px;
+      position: relative;
+    }
    }
 
    @media (min-width:600px) {
@@ -184,7 +206,7 @@ margin-top: 20px;
         min-height: 100vh;
         color: black;
         background-image: url(nav/beauty-black-mixed-race-african-american-woman-with-long-curly-hair-perfect-smile-looking-camera-smiling-blue.jpg) ;
-        background-position: calc(-180px);
+        background-position: calc(-250px);
         background-size: cover;
         background-repeat: no-repeat;
         overflow: hidden;

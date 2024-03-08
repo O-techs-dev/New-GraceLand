@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Freehand&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Freehand&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
 
 *{
@@ -6,15 +6,15 @@
     margin: 0px;  
 }
 body{
-  font-size: small;
   min-height: 100vh;
   color: black;
-  background-image: url(nav/backimage\ 2.jpeg);
+  background-image: url(nav/backimage\ 2.jpeg) ;
   background-size: cover ;
   background-position: calc(-210px);
   background-repeat: no-repeat;
   overflow: hidden;
 }
+
 
 nav{
   background-color: rgba(0, 0, 0, 0.795);
@@ -66,7 +66,7 @@ nav a{
   font-style: normal;
   padding: 2px;
   position: relative;
-  top: -55px;
+  top: -59px;
   left: 45px;
   color: yellow;
 }
@@ -100,7 +100,7 @@ margin-top: 20px;
 }
 .menu-btn{
   display: flex;
-  margin-top: -40px;
+  margin-top: -45px;
   position: relative;
 }
   .hideOnMobile{
@@ -109,20 +109,19 @@ margin-top: 20px;
 }
 .main-logo img{
     width: 40px;
-    padding: 3px;
+    padding: 6px 3px;
 }
-
-
 .top-head{
   padding-right: 10px;
   float: right;
+  font-size: small;
   text-align: right;
   margin: 0%;
   width: 50%;
   color: white;
 }
 .welcome{
-  font-size: 105%;
+  font-size: 125%;
   text-shadow: 2px 2px 5px black;
 }
 .we{
@@ -130,7 +129,7 @@ margin-top: 20px;
   margin-top: 20px;
   color: rgb(255, 255, 255);
   font-weight: 900;
-  font-size: 90%;
+  font-size: 85%;
   text-shadow: 2px 3px 3px black;
 }
 
@@ -164,23 +163,27 @@ margin-top: 20px;
    @media (min-width:400px) {
     .menu-btn{
       display: flex;
-      margin-top: -30px;
+      margin-top: -35px;
       position: relative;
+    }
+    .motto{
+      top: -53px;
     }
    }
    @media  (min-width: 475px) {
-    
-    
+    .welcome{
+      font-size: large;
+    }
+
   
    }
 
    @media (min-width:600px) {
     body{
-      font-size: large;
         min-height: 100vh;
         color: black;
         background-image: url(nav/backimage\ 2.jpeg);
-        background-position: calc(-100px);
+        background-position: calc(-160px);
         background-size: cover;
         background-repeat: no-repeat;
         overflow: hidden;
@@ -195,7 +198,12 @@ margin-top: 20px;
       position: relative;
       top: -45px;
     }
-  
+    .welcome{
+      font-size: large;
+    }
+    .we{
+      font-size: 17px;
+    }
    }
    @media (min-width:768px){
     body{
@@ -215,7 +223,7 @@ nav a{
 }
 nav li{
   position: relative;
-  top: -10px;
+  top: -20px;
 
 }
 .home{
@@ -229,10 +237,10 @@ nav li{
 .welcome{
   font-size: 30px;
 }
+   }
 
 @media (min-width:790px) {
   body{
-    font-size: large;
       min-height: 100vh;
       color: black;
       background-image: url(nav/backimage\ 2.jpeg);
@@ -242,6 +250,7 @@ nav li{
       overflow: hidden;
    
   }
+}
 @media (min-width:900px) {
   body{
     min-height: 100vh;
@@ -253,7 +262,7 @@ nav li{
     overflow: hidden;
   }
 }
-   }
+   
    @media (min-width:1000px){
     .hideOnMobile{
         display: block;
@@ -308,3 +317,11 @@ nav li{
   }
 }
 
+#preload{
+  background: #ffffffef   url(nav/ZZ5H.gif)no-repeat center center  ;
+  background-size: 10%;
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  z-index: 100;
+}

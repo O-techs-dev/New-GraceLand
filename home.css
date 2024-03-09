@@ -170,6 +170,15 @@ margin-top: 20px;
   animation-fill-mode: none;
     
   }
+.social-txt{
+   animation-name: slideInLeft   ;
+  animation-duration: 1s ;
+  animation-timing-function: ease-in ;
+  animation-iteration-count: 1;
+  animation-delay: 0s;
+  animation-duration: normal;
+  animation-fill-mode: none;
+}
   @keyframes slideInLeft{
     from{
       transform: translateX(-100px);
@@ -245,6 +254,15 @@ margin-top: 20px;
       animation-duration: normal;
       animation-fill-mode: none;
     }
+     .social-txt{
+   animation-name: slideInLeft   ;
+  animation-duration: 1s ;
+  animation-timing-function: ease-in ;
+  animation-iteration-count: 1;
+  animation-delay: 0s;
+  animation-duration: normal;
+  animation-fill-mode: none;
+}
     .the-mail{
       animation-name: slideInLeft  ;
       animation-duration: 1s ;
@@ -304,6 +322,15 @@ margin-top: 20px;
       animation-duration: normal;
       animation-fill-mode: none;
     }
+     .social-txt{
+   animation-name: slideInLeft   ;
+  animation-duration: 1s ;
+  animation-timing-function: ease-in ;
+  animation-iteration-count: 1;
+  animation-delay: 0s;
+  animation-duration: normal;
+  animation-fill-mode: none;
+}
     footer{
       font-size: 90%;
     }
@@ -356,6 +383,15 @@ margin-top: 20px;
       animation-duration: normal;
       animation-fill-mode: none;
     }
+     .social-txt{
+   animation-name: slideInLeft   ;
+  animation-duration: 1s ;
+  animation-timing-function: ease-in ;
+  animation-iteration-count: 1;
+  animation-delay: 0s;
+  animation-duration: normal;
+  animation-fill-mode: none;
+}
     footer{
       font-size: 90%;
     }
@@ -415,6 +451,15 @@ margin-top: 20px;
       animation-duration: normal;
       animation-fill-mode: none;
     }
+     .social-txt{
+   animation-name: slideInLeft   ;
+  animation-duration: 1s ;
+  animation-timing-function: ease-in ;
+  animation-iteration-count: 1;
+  animation-delay: 0s;
+  animation-duration: normal;
+  animation-fill-mode: none;
+}
    }
 
    @media (min-width:600px) {
@@ -467,6 +512,15 @@ margin-top: 20px;
       animation-duration: normal;
       animation-fill-mode: none;
     }
+     .social-txt{
+   animation-name: slideInLeft   ;
+  animation-duration: 1s ;
+  animation-timing-function: ease-in ;
+  animation-iteration-count: 1;
+  animation-delay: 0s;
+  animation-duration: normal;
+  animation-fill-mode: none;
+}
     .welcome{
       font-size: large;
     }
@@ -530,6 +584,15 @@ margin-top: 20px;
       animation-duration: normal;
       animation-fill-mode: none;
     }
+     .social-txt{
+   animation-name: slideInLeft   ;
+  animation-duration: 1s ;
+  animation-timing-function: ease-in ;
+  animation-iteration-count: 1;
+  animation-delay: 0s;
+  animation-duration: normal;
+  animation-fill-mode: none;
+}
     .we{
       font-size: 17px;
     }

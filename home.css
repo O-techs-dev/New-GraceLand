@@ -33,8 +33,7 @@ nav ul{
 }
 .svg{
   fill: white;
-  left: -10px;
-  position: relative;
+  
 }
 
 .menu{
@@ -120,9 +119,24 @@ margin-top: 20px;
   width: 50%;
   color: white;
 }
+@keyframes slideInRight{
+  from{
+    transform: translateX(200px);
+  }
+  to{
+    transform: translateX(0p);
+  }
+}
 .welcome{
   font-size: 90%;
   text-shadow: 2px 2px 5px black;
+  animation-name: slideInRight  ;
+  animation-duration: 1s ;
+  animation-timing-function: ease-in ;
+  animation-iteration-count: 1;
+  animation-delay: 1s;
+  animation-duration: normal;
+  animation-fill-mode: none;
 }
 .we{
   line-height: normal;
@@ -132,6 +146,7 @@ margin-top: 20px;
   font-size: 85%;
   text-shadow: 2px 3px 3px black;
 }
+
 
 .yours{
     font-size: 65%;
@@ -146,7 +161,34 @@ margin-top: 20px;
     position: relative;
     left: -10px;
     fill: white;
+    animation-name: slideInLeft   ;
+  animation-duration: 1s ;
+  animation-timing-function: ease-in ;
+  animation-iteration-count: 1;
+  animation-delay: 0s;
+  animation-duration: normal;
+  animation-fill-mode: none;
     
+  }
+  @keyframes slideInLeft{
+    from{
+      transform: translateX(-100px);
+    }
+    to{
+      transform: translateX(0p);
+    }
+  }
+  .the-mail{
+    left: -10px;
+    position: relative;
+    fill: white;
+    animation-name: slideInLeft  ;
+  animation-duration: 1s ;
+  animation-timing-function: ease-in ;
+  animation-iteration-count: 1;
+  animation-delay: 0s;
+  animation-duration: normal;
+  animation-fill-mode: none;
   }
    footer{
     position: fixed;
@@ -173,7 +215,7 @@ margin-top: 20px;
     }
     .menu-btn{
       display: flex;
-      margin-top: -35px;
+      margin-top: -40px;
       position: relative;
     }
     .sidebar{
@@ -185,9 +227,32 @@ margin-top: 20px;
     .welcome{
       font-size: 120%;
     }
+    @keyframes slideInLeft{
+      from{
+        transform: translateX(250px);
+      }
+      to{
+        transform: translateX(0);
+      }
+    }
     .img-icon{
       width: 10%;
-     
+      animation-name: slideInLeft  ;
+      animation-duration: 1s ;
+      animation-timing-function: ease-in ;
+      animation-iteration-count: 1;
+      animation-delay: 0s;
+      animation-duration: normal;
+      animation-fill-mode: none;
+    }
+    .the-mail{
+      animation-name: slideInLeft  ;
+      animation-duration: 1s ;
+      animation-timing-function: ease-in ;
+      animation-iteration-count: 1;
+      animation-delay: 0s;
+      animation-duration: normal;
+      animation-fill-mode: none;
     }
    }
 
@@ -211,6 +276,33 @@ margin-top: 20px;
     }
     .sidebar{
       width: 250px;
+    }
+    @keyframes slideInLeft{
+      from{
+        transform: translateX(250px);
+      }
+      to{
+        transform: translateX(0);
+      }
+    }
+    .img-icon{
+      width: 10%;
+      animation-name: slideInLeft  ;
+      animation-duration: 1s ;
+      animation-timing-function: ease-in ;
+      animation-iteration-count: 1;
+      animation-delay: 0s;
+      animation-duration: normal;
+      animation-fill-mode: none;
+    }
+    .the-mail{
+      animation-name: slideInLeft  ;
+      animation-duration: 1s ;
+      animation-timing-function: ease-in ;
+      animation-iteration-count: 1;
+      animation-delay: 0s;
+      animation-duration: normal;
+      animation-fill-mode: none;
     }
     footer{
       font-size: 90%;
@@ -236,6 +328,33 @@ margin-top: 20px;
       display: flex;
       margin-top: -34px;
       position: relative;
+    }
+    @keyframes slideInLeft{
+      from{
+        transform: translateX(250px);
+      }
+      to{
+        transform: translateX(0);
+      }
+    }
+    .img-icon{
+      width: 10%;
+      animation-name: slideInLeft  ;
+      animation-duration: 1s ;
+      animation-timing-function: ease-in ;
+      animation-iteration-count: 1;
+      animation-delay: 0s;
+      animation-duration: normal;
+      animation-fill-mode: none;
+    }
+    .the-mail{
+      animation-name: slideInLeft  ;
+      animation-duration: 1s ;
+      animation-timing-function: ease-in ;
+      animation-iteration-count: 1;
+      animation-delay: 0s;
+      animation-duration: normal;
+      animation-fill-mode: none;
     }
     footer{
       font-size: 90%;
@@ -269,6 +388,33 @@ margin-top: 20px;
     footer{
       font-size: 90%;
     }
+    @keyframes slideInLeft{
+      from{
+        transform: translateX(250px);
+      }
+      to{
+        transform: translateX(0);
+      }
+    }
+    .img-icon{
+      width: 10%;
+      animation-name: slideInLeft  ;
+      animation-duration: 1s ;
+      animation-timing-function: ease-in ;
+      animation-iteration-count: 1;
+      animation-delay: 0s;
+      animation-duration: normal;
+      animation-fill-mode: none;
+    }
+    .the-mail{
+      animation-name: slideInLeft  ;
+      animation-duration: 1s ;
+      animation-timing-function: ease-in ;
+      animation-iteration-count: 1;
+      animation-delay: 0s;
+      animation-duration: normal;
+      animation-fill-mode: none;
+    }
    }
 
    @media (min-width:600px) {
@@ -293,6 +439,33 @@ margin-top: 20px;
     .motto{
       position: relative;
       top: -45px;
+    }
+    @keyframes slideInLeft{
+      from{
+        transform: translateX(250px);
+      }
+      to{
+        transform: translateX(0);
+      }
+    }
+    .img-icon{
+      width: 10%;
+      animation-name: slideInLeft  ;
+      animation-duration: 1s ;
+      animation-timing-function: ease-in ;
+      animation-iteration-count: 1;
+      animation-delay: 0s;
+      animation-duration: normal;
+      animation-fill-mode: none;
+    }
+    .the-mail{
+      animation-name: slideInLeft  ;
+      animation-duration: 1s ;
+      animation-timing-function: ease-in ;
+      animation-iteration-count: 1;
+      animation-delay: 0s;
+      animation-duration: normal;
+      animation-fill-mode: none;
     }
     .welcome{
       font-size: large;
@@ -329,6 +502,33 @@ margin-top: 20px;
     }
     .welcome{
       font-size: large;
+    }
+    @keyframes slideInLeft{
+      from{
+        transform: translateX(250px);
+      }
+      to{
+        transform: translateX(0);
+      }
+    }
+    .img-icon{
+      width: 10%;
+      animation-name: slideInLeft  ;
+      animation-duration: 1s ;
+      animation-timing-function: ease-in ;
+      animation-iteration-count: 1;
+      animation-delay: 0s;
+      animation-duration: normal;
+      animation-fill-mode: none;
+    }
+    .the-mail{
+      animation-name: slideInLeft  ;
+      animation-duration: 1s ;
+      animation-timing-function: ease-in ;
+      animation-iteration-count: 1;
+      animation-delay: 0s;
+      animation-duration: normal;
+      animation-fill-mode: none;
     }
     .we{
       font-size: 17px;
